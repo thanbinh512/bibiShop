@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./base1.css">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+
+                <!-- header navbar -->
+                <nav class="header__navbar hide-on-mobile-tablet">
+
+                    <!-- header navbar left -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-has-qr header__navbar-item--separate">
+                            Thân Văn Bình - Shop
+                            <div class="header__qr">
+                                <div class="header__qr-apps">
+                                    <a class="header__qr-link">
+                                    </a>
+                                    <a class="header__qr-link">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-9/164084678_464967857956036_4009082598808505005_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=8zcQzmQpRh4AX-yXgCw&_nc_ht=scontent.fhan3-2.fna&oh=cb45a7b2e8d86c70c9acf70ea39c3fdc&oe=614EAC69"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item-no-pointer">Kết nối</span>
+                            <a href="https://www.facebook.com/binh.thanvan.100" class="header__navbar-icon-link">
+                                <img src="https://www.kindpng.com/picc/m/455-4552922_instagram-icon-png-facebook-mini-logo-png-transparent.png" width="12" height="12" />
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fbinh.thanvan.100%3Ffbclid%3DIwAR2osw5ab7qS1WhxOc5QxoNgQ5F_nXagsViW1U8dKL82hmfJkuSp89Ysyt8&h=AT1STe2arQklBek5sCEI8u49acawOq8UhojNlTr5UAY_9Rt-PZhVO-ObcAs4ZAzE3Ga4IhJUD-VLeNzGY6hLcptCeH5Z2K7ANhYqg_00EKl8qWXHlvygLK9VXl3IghA6l8vg"
+                                class="header__navbar-icon-link">
+                                <img src="https://iconarchive.com/download/i49146/yootheme/social-bookmark/social-facebook-box-blue.ico" width="15" height="15" />
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!--rnd header navbar left -->
+                    <!-- header navbar center-->
+                    <ul class="header__navbar-list">
+                        TIME:
+                        <script src="./time.js">
+                        </script>
+                    </ul>
+                    <!-- header navbar right -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-has-notity">
+                            <a href="#" class="header__navbar-item-link">
+                                <img src="https://eplaza.vn/assets/images/icons/bottom-bar/bell.svg" width="12" height="12" />
+                                <i class="header__navbar-icon far fa-bell"></i> Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item-viewed">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="#" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <div class="header__notify-name">Thông báo mới</div>
+                                                <div class="header__notify-descrition">Không có gì để thông báo</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="#" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <div class="header__notify-name"> Thông báo 2 tháng trước</div>
+                                                <div class="header__notify-descrition">Trần Phan Thái Dương bị lừa mất 200k, GÀ!</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item-viewed">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="#" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <div class="header__notify-name">Thông báo về tôi</div>
+                                                <div class="header__notify-descrition">Thân Văn Bình 05-12-2001</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notify-footer">
+                                    <a href="#" class="header__notity-footer-link">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item-link">
+                                <img src="https://png.pngtree.com/png-vector/20190215/ourlarge/pngtree-vector-question-mark-icon-png-image_515448.jpg" width="12" height="12" />
+                                <i class="header__navbar-icon far fa-question-circle"></i> Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./anh/anh3.jpg" class="header__navbar-user-img">
+                            <button class="header__navbar-user-name"> Thân Văn Bình </button>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--end header navbar right -->
+                </nav>
+
+                <!-- end header-navbar -->
+
+
+                <!-- header-search -->
+                <div class="header-with-search">
+
+                    <label for="header-bars-input" class="header__bars-btn">
+							<i class="fas fa-bars header__bars-icon"></i>
+						</label>
+
+                    <input type="checkbox" class="header__bars-input" id="header-bars-input">
+                    <div class="header__mobile">
+                        <ul class="header__mobile-list">
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Trang chủ</a>
+                            </li>
+
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Giỏ hàng</a>
+                            </li>
+
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Đăng ký</a>
+                            </li>
+
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Đăng nhập</a>
+                            </li>
+
+                        </ul>
+                        <label for="header-bars-input">
+								<i class="fas fa-times header__mobile-close"></i>
+							</label>
+
+                    </div>
+
+                    <label for="header-bars-input" class="modal">
+							<div class="modal__overlay"></div>
+						</label>
+                    <!-- logo -->
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link">
+                            <img class="header__logo-img" src="./anh/one.png" width="50px" height="50px">
+                        </a>
+                    </div>
+
+                    <!-- end logo -->
+
+                    <!-- search -->
+                    <div class="header__search hide-on-mobile">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm...">
+
+
+                        </div>
+                        <div class="header__search-select">
+                            <button class="header__search-select-label"> 
+									Trong shop
+                            </button>
+                            <i class="fas fa-chevron-down header__search-select-icon"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <button>Trong shop</button>
+                                    <i class="fas fa-check "></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <button>Ngoài shop</button>
+                                    <i class="fas fa-check "></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="header__search-btn">
+								<i class="fas fa-search header__search-btn-icon"></i>
+                                <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-vector-find-icon-png-image_3788097.jpg" width="60" height="34"/>
+                        </button>
+
+                    </div>
+                    <!--end search -->
+
+                    <!-- cart -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <span class="header__cart-notice">
+                                <img src="https://banner2.cleanpng.com/20180703/vtz/kisspng-shopping-cart-software-computer-icons-mayline-5b3b72a89c95a3.3174593115306226326414.jpg" width="25" height="25" />
+								</span>
+                            <i class="fas fa-shopping-cart header__cart-icon"></i>
+                            <div class="header__cart-list">
+                                <!-- no cart: header__cart-list--no-cart -->
+                                <img src="assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <p class="header__cart-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </p>
+
+                                <h4 class="header__cart-heading">Sản phẩn đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="./anh/anh3.jpg" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Thân Văn Bình</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+														Phân loại: <span class="header__cart-item-classify">Authentic</span>
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./anh/anh4.jpg" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Trần Phan Thái Dương
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+														Phân loại: <span class="header__cart-item-classify">Rep 1:1</span>
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="btn btn--primary header__cart-view-cart">
+										Xem giỏ hàng
+									</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end cart -->
+                </div>
+
+                <!--end header-search -->
+            </div>
+    </div>
+    <hr style="width: 100%; border: 1px solid white;">
+    <div style="clear: both;"></div>
+    <!--end header -->
+    <!--danhmuc-->
+    <div class="Danhmuc">
+        <div class="left">
+            <div class="danhsach">
+                <ul>
+                    <a href="file:///C:/Users/binh/Desktop/frontend/index.html">
+                        <li>Trang Chủ </li>
+                    </a>
+                    <hr style="width: 150px; margin-left: 40px;">
+                    <a href="#">
+                        <li>Sản Phẩm</li>
+                    </a>
+                    <hr style="width: 150px; margin-left: 40px;">
+                    <a href="#">
+                        <li>Danh Mục</li>
+                    </a>
+                    <hr style="width: 150px; margin-left: 40px;">
+                    <a href="#">
+                        <li>Tùy Chọn</li>
+                    </a>
+                    <hr style="width: 150px; margin-left: 40px;">
+                    <a href="#">
+                        <li>Thêm</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+        <div class="right">
+            <H2>Sản Phẩm Đang Hot</H2>
+            <div class="SP1">
+                <div class="news-sp1">
+                    <a href="./product3.html"><img src="./anh/two.jfif"></a>
+                    <div class="conten">
+                        <a href="./product3.html">
+                            <p>Laptop Asus ROG Gaming G513IH-HN015T R7 4800H/8GB/512GB SSD/GTX1650 4GB/Win10</p>
+                        </a>
+                    </div>
+                    <a href="./product3.html"><button>Chi Tiết</button></a>
+                </div>
+                <div class="news-sp1">
+                    <a href="./product1.html"><img src="./anh/115.png"></a>
+                    <div class="conten">
+                        <a href="./product1.html">
+                            <p style="margin-top: 30px;"> Điện Thoại iPhone 11 64GB - Hàng Chính Hãng</p>
+                        </a>
+                    </div>
+                    <a href="./product1.html"><button style="margin-top: 40px;">Chi Tiết</button></a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <hr style="width: 90%; margin-left: 70px;">
+    <!--end danhmuc-->
+    <div class="product">
+        <h1> Chi Tiết Sản Phẩm</h1>
+        <div class="product-left">
+            <script src="./zoom.js"></script>
+            <div class="container">
+                <div class="img-magnifier-container">
+                    <div class="mySlides">
+
+                        <div class="numbertext">1 / 6</div>
+                        <img id="myimage" src="./anh/g1.jfif" width="350px" height="350px" style="margin-left: 30px;">
+                    </div>
+                    <script>
+                        magnify("myimage", 3);
+                    </script>
+                </div>
+                <div class="mySlides ">
+                    <div class="img-magnifier-container">
+                        <div class="numbertext ">2 / 6</div>
+
+                        <img id="myimage1" src="./anh/g2.jfif" width="350px" height="350px" style="margin-left: 30px;">
+                    </div>
+                    <script>
+                        magnify("myimage1", 3);
+                    </script>
+                </div>
+
+                <div class="mySlides ">
+                    <div class="img-magnifier-container">
+                        <div class="numbertext ">3 / 6</div>
+                        <img id="myimage2" src="./anh/g3.jfif " width="350px" height="350px" style="margin-left: 30px;">
+                    </div>
+                    <script>
+                        magnify("myimage2", 3);
+                    </script>
+                </div>
+
+                <div class="mySlides ">
+                    <div class="img-magnifier-container">
+                        <div class="numbertext ">4 / 6</div>
+                        <img id="myimage3" src="./anh/g4.jfif " width="350px" height="350px" style="margin-left: 30px;">
+                    </div>
+                    <script>
+                        magnify("myimage3", 3);
+                    </script>
+                </div>
+
+                <div class="mySlides ">
+                    <div class="img-magnifier-container">
+                        <div class="numbertext ">5 / 6</div>
+                        <img id="myimage4" src="./anh/g5.jfif " width="350px" height="350px" style="margin-left: 30px;">
+                    </div>
+                    <script>
+                        magnify("myimage4", 3);
+                    </script>
+                </div>
+
+                <div class="mySlides ">
+                    <div class="img-magnifier-container">
+                        <div class="numbertext ">6 / 6</div>
+                        <img id="myimage5" src="./anh/g6.jfif " width="350px" height="350px" style="margin-left: 30px;">
+                    </div>
+                    <script>
+                        magnify("myimage5", 3);
+                    </script>
+                </div>
+
+                <a class="prev " onclick="plusSlides(-1) ">❮</a>
+                <a class="next " onclick="plusSlides(1) ">❯</a>
+
+                <div class="caption-container  " style="margin-top: 50px; margin-bottom: 10px;">
+                    <p id="caption "></p>
+                </div>
+
+                <div class="row ">
+                    <div class="column ">
+                        <img class="demo cursor " src="./anh/g1.jfif " style="width:100% " height="70px " onclick="currentSlide(1) " alt="SAMSUNG note 10 ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="./anh/g2.jfif" style="width:100% " height="70px " onclick="currentSlide(2) " alt="SAMSUNG note 10 ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="./anh/g3.jfif " style="width:100% " height="70px " onclick="currentSlide(3) " alt="SAMSUNG note 10 ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="./anh/g4.jfif " style="width:100% " height="70px " onclick="currentSlide(4) " alt="SAMSUNG note 10 ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="./anh/g5.jfif " style="width:100% " height="70px " onclick="currentSlide(5) " alt="SAMSUNG note 10 ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="./anh/g6.jfif " style="width:100% " height="70px " onclick="currentSlide(6) " alt="SAMSUNG note 10 ">
+                    </div>
+                </div>
+            </div>
+            <script src="./sli.js "></script>
+            <div class="icons">
+                <div class="styles__ProductActionV2Container-sc-kdypyf-0 dzVRbr">
+                    <div class="styles__Text-sc-kdypyf-1 coYCPR" style="font-size: 16px; margin-top: 10px; margin-bottom: 10px;">Chia sẻ:</div>
+                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/social-facebook.svg" alt="social-facebook" class="styles__Icon-sc-kdypyf-2 elgJGA left" style="margin-left: 5px;">
+                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/social-messenger.svg" alt="social-messenger" class="styles__Icon-sc-kdypyf-2 elgJGA" style="margin-left: 5px;">
+                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/social-pinterest.svg" alt="social-pinterest" class="styles__Icon-sc-kdypyf-2 elgJGA" style="margin-left: 5px;">
+                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/social-twitter.svg" alt="social-twitter" class="styles__Icon-sc-kdypyf-2 elgJGA" style="margin-left: 5px;">
+                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/social-copy.svg" alt="social-copy" class="styles__Icon-sc-kdypyf-2 elgJGA last" style="margin-left: 5px;">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-center ">
+            <h4>Thương hiệu: SAMSUNG</h4>
+            <div style="border-left:1px solid black; margin-left: 5px; margin-top: 10px; height: 14px; float: left;"></div>
+            <span> &nbsp; Đứng thứ 30 trong Top 1000 Điện thoại Smartphone</span>
+            <H2> Galaxy Note 10 Plus 5G 256GB bản Hàn 2 sim</H2>
+            <div class="ckek">
+                <span style="font-size: 16px; margin-left: 9px; ">Đánh Giá :</span>
+                <style>
+                    div.stars {
+                        display: inline-block;
+                    }
+                    
+                    input.star {
+                        display: none;
+                    }
+                    
+                    label.star {
+                        float: right;
+                        padding: 10px;
+                        font-size: 25px;
+                        color: #444;
+                        transition: all .2s;
+                    }
+                    
+                    input.star:checked~label.star:before {
+                        content: '\f005';
+                        color: #FD4;
+                        transition: all .25s;
+                    }
+                    
+                    input.star-5:checked~label.star:before {
+                        color: #FE7;
+                        text-shadow: 0 0 20px #952;
+                    }
+                    
+                    input.star-1:checked~label.star:before {
+                        color: #F62;
+                    }
+                    
+                    label.star:hover {
+                        transform: rotate(-15deg) scale(1.3);
+                    }
+                    
+                    label.star:before {
+                        content: '\f006';
+                        font-family: FontAwesome;
+                    }
+                </style>
+                <div class="stars">
+                    <form action="">
+                        <input class="star star-5" id="star-5" type="radio" name="star" />
+                        <label class="star star-5" for="star-5"></label>
+                        <input class="star star-4" id="star-4" type="radio" name="star" />
+                        <label class="star star-4" for="star-4"></label>
+                        <input class="star star-3" id="star-3" type="radio" name="star" />
+                        <label class="star star-3" for="star-3"></label>
+                        <input class="star star-2" id="star-2" type="radio" name="star" />
+                        <label class="star star-2" for="star-2"></label>
+                        <input class="star star-1" id="star-1" type="radio" name="star" />
+                        <label class="star star-1" for="star-1"></label>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="gioithieu">
+                <span> &nbsp;  (Xem 18 đánh giá) </span>
+                <div style="border-left:1px solid black; margin-left: 5px; margin-top: 10px; height: 14px; float: left;"></div>
+                <span> &nbsp; Đã bán 7 </span>
+            </div>
+            <div>
+                <div style="clear: both;"></div>
+                <p>10.190.000 ₫</p>
+
+                <span style="font-size: 16px; margin-top: 28px; text-decoration: line-through;color: gray;">15.400.000 ₫</span>
+            </div>
+            <div style="clear: both;"></div>
+            <span style="font-size: 14px; color: #333366;">
+                  1: Hoàn tiền 15% tối đa 600k/tháng
+                </span>
+            <br>
+            <span style="float: left; margin-right: 210px; font-size: 14px;color: #333366;">2: Miễn Phí Vận Chuyển</span>
+
+
+            <span style="float: left; margin-right: 210px;font-size: 18px; font-weight: 500px; margin-top: 20px;">Chọn Màu:</span>
+            <div style="clear: both;"></div>
+            <div class="mausac">
+                <button><img src="./anh/g1.jfif">Màu Trắng</button>
+                <button><img src="./anh/g2.jfif">Màu Xanh</button>
+                <button><img src="./anh/g3.jfif">Màu Đen</button>
+            </div>
+
+            <span style="margin-top: 70px; font-size: 20px; font-weight: bold; font-family: 'Times New Roman', Times, serif;">3 Mã Giảm Giá</span>
+            <div style="clear: both;"></div>
+            <div class="magiamgia">
+                <button>Giảm 5%</button>
+                <button>Giảm 20%</button>
+                <button>Giảm 50%</button>
+            </div>
+            <span style="font-size: 16px; font-family: 'Times New Roman', Times, serif;color: gray; margin-top: 20px; line-height: 25px;">Bạn hãy <b style="color: blue;">NHẬP ĐỊA CHỈ</b> nhận hàng để được dự báo thời gian & chi phí giao hàng một cách chính xác nhất.</span>
+            <span style="font-size: 20px; color:black; font-weight: bold;font-family: 'Times New Roman', Times, serif;margin-top: 30px; ">Số Lượng</span>
+            <div style="clear: both;"></div>
+            <div class="soluong">
+                <button>-</button>
+                <button>1</button>
+                <button>+</button>
+            </div>
+            <div class="muahang">
+                <button style="background: red; color: white;">Chọn Mua</button>
+                <button style="background: gray; color: white;">Trả Góp Bằng Thẻ</button>
+            </div>
+        </div>
+        <div class="product-right ">
+            <div class="bshop">
+                <img src="./anh/one.png">
+                <p>Bình - Shop</p>
+                <div style="border-left:1px solid gray ; margin-left: 5px; height: 50px; float: left; "></div>
+                <span style="float: left;font-size: 20px; color: gray; font-family: 'Times New Roman', Times, serif;margin-top: 15px;">&nbsp; Uy Tín</span>
+            </div>
+            <span style="font-size: 18px; margin-left: 40px; margin-top: 20px; float: left;">5 / 5</span>
+            <span style="font-size: 18px; float: left; margin-top: 19px; margin-left: 9px;">10k+ theo dõi</span>
+            <span style="font-size: 18px; margin-top: 19px;margin-left: 14px; float: left;">90% phản hồi</span>
+            <div class="shop">
+                <button>Xem Shop</button>
+                <button>+ Theo Dõi</button>
+            </div>
+            <span style="font-size: 14px; margin-top: 40px; float: left; margin-left: 40px;color: gray;">Thời Gian Bảo Hành&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12 Tháng </span>
+            <span style="font-size: 14px; margin-top: 40px; float: left; margin-left: 40px;color: gray;">Hình Thức Bảo Hành&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hóa Đơn</span>
+            <span style="font-size: 14px; margin-top: 40px; float: left; margin-left: 40px;color: gray;">Nơi Bảo Hành&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bình-Shop</span>
+            <span style="font-size: 14px; margin-top: 40px; float: left; margin-left: 40px;color: gray;">Hướng Dẫn Bảo Hành&nbsp;&nbsp; &nbsp; &nbsp; Xem Chi Tiết </span>
+            <div style="clear: both;"></div>
+            <div class="logomini">
+                <img src="./anh/11.png">
+                <img src="./anh/12.png">
+                <img src="./anh/13.png">
+            </div>
+            <div style="clear: both;"></div>
+            <div class="news">
+                <div class="news-logo">
+                    <span>Hoàn Tiền 200% Nếu Hàng Giả</span>
+                </div>
+                <div class="news-logo">
+                    <span>Mở Kiểm Hàng Trước</span>
+                </div>
+                <div class="news-logo">
+                    <span>Trả Lại Khí Sai Hàng</span>
+                </div>
+            </div>
+            <span style="font-size: 18px;color: gray;margin-left: 20px; margin-top: 30px;float: left;">1 Nhà Bán Khác </span>
+            <button style="font-size: 14px; margin-top: 20px; margin-left: 30px; width: 100px; height: 30px;">So Sánh</button>
+        </div>
+        <div style="clear: both;"></div>
+        <hr style="width: 100%; border: 5px solid rgb(231, 109, 38); margin-top: 10px;">
+        <!--footer-->
+        <footer>
+            <div>
+                <h3> Thân Văn Bình TH24.42</h3>
+                <img src="./anh/60.jpg">
+                <h4>SHOP:Thương Hiệu Tạo Nên Tên Tuổi</h4>
+                <p> Địa Chỉ: @@@@@@@@@@@@@
+                </p>
+                <p>STD:##############</p>
+
+
+            </div>
+        </footer>
+</body>
+
+</html>
